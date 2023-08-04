@@ -1,0 +1,205 @@
+<!DOCTYPE html> <!-- Configurações iniciais */ -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
+    </head>
+<body>
+    <header> <!-- cabeçalho do site */ -->
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#entretenimento" title="Ir para a seção de notícias">Entretenimento</a>
+                    </li>
+                    <li>
+                        <a href="#tecnologia" title="Ir para a seção de notícias">Tecnologia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sports"> <!-- Seção esportes */ -->
+        <div class="container">
+                <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                    <header>
+                        <time class="creation-date">13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy"> <!-- Seção economia */ -->
+    <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+    </div>
+    </section>
+    <section id="entretenimento"> <!-- Seção entrenimento */ -->
+        <div class="container">
+                <h2>Entretenimento</h2>
+            <div class="articles"> <!-- artigos entretenimento */ -->
+                <article>
+                    <img src="./imagens/Entretenimento1.jpg" alt="Itens diversos relacionados ao cinema" />
+                    <header>
+                        <time class="creation-date">04/08/2023 às 16:35</time>
+                    </header>
+                    <h3>Confira as tendências do cinema</h3>
+                    <p>
+                        Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Pra lá, depois divoltis porris, paradis. Si num tem leite então bota uma pinga aí cumpadi! Quem num gosta di mim que vai caçá sua turmis!
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/Entretenimento2.jpg" alt="Imagem de joystick de video game" />
+                    <header>
+                        <time>04/08/2023 às 16:35</time>
+                    </header>
+                    <h3>Chegou no mercado o jogo mais esperado do ano.</h3>
+                    <p>
+                        Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Pra lá, depois divoltis porris, paradis. Si num tem leite então bota uma pinga aí cumpadi! Quem num gosta di mim que vai caçá sua turmis!
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/Entretenimento3.jpg" title="Pessoas tocando guitarra e contra baixo" />
+                    <header>
+                        <time>04/08/2023 às 16:35</time>
+                    </header>
+                    <h3>O Rock vai agitar essa semana</h3>
+                    <p>
+                        Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Pra lá, depois divoltis porris, paradis. Si num tem leite então bota uma pinga aí cumpadi! Quem num gosta di mim que vai caçá sua turmis!
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="tecnologia"> <!-- Seção Tecnologia */ -->
+        <div class="container">
+                <h2>Tecnologia</h2>
+            <div class="articles"> <!-- artigos Tecnologia */ -->
+                <article>
+                    <img src="./imagens/tecnologia1.jpg" alt="Notebook com telas de programação" />
+                    <header>
+                        <time class="creation-date">04/08/2023 às 16:04</time>
+                    </header>
+                    <h3>Cresce o número de vagas na área de TI</h3>
+                    <p>
+                        Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Delegadis gente finis, bibendum egestas augue arcu ut est. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/tecnologia2.jpg" alt="Trabalhrador operando painél eletrônico futurista" />
+                    <header>
+                        <time>04/08/2023 às 16:04</time>
+                    </header>
+                    <h3>Tenologia aliada à mão de obra</h3>
+                    <p>
+                        Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Diuretics paradis num copo é motivis de denguis. Quem num gosta di mim que vai caçá sua turmis! Sapien in monti palavris qui num significa nadis i pareci latim.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/tecnologia3.jpg" title="Placa de computador" />
+                    <header>
+                        <time>04/08/2023 às 16:04</time>
+                    </header>
+                    <h3>O avanço da nanotecnologia</h3>
+                    <p>
+                        Sapien in monti palavris qui num significa nadis i pareci latim. Manduma pindureta quium dia nois paga. Aenean aliquam molestie leo, vitae iaculis nisl. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
